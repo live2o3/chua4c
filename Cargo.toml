@@ -1,0 +1,20 @@
+[package]
+name = "chua4c"
+version = "0.1.0"
+authors = ["gengteng <me@gteng.org>"]
+edition = "2018"
+license = "MIT"
+description = ""
+homepage = "https://github.com/live2o3/chua4c"
+repository = "https://github.com/live2o3/chua4c"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chua = "0.1"
+
+[build-dependencies]
+cbindgen = "0.14"
+
+[lib]
+crate-type = [ "staticlib", "cdylib" ]
